@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC142FBA1D94C083009350FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC142FB91D94C083009350FC /* main.m */; };
+		FC142FBD1D94C083009350FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC142FBC1D94C083009350FC /* AppDelegate.m */; };
+		FC142FC01D94C083009350FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC142FBF1D94C083009350FC /* ViewController.m */; };
+		FC142FC31D94C083009350FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC142FC11D94C083009350FC /* Main.storyboard */; };
+		FC142FC51D94C083009350FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC142FC41D94C083009350FC /* Assets.xcassets */; };
+		FC142FC81D94C083009350FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC142FC61D94C083009350FC /* LaunchScreen.storyboard */; };
+		FC142FD31D94C083009350FC /* XMINStatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC142FD21D94C083009350FC /* XMINStatusBarTests.m */; };
+		FC142FDE1D94C083009350FC /* XMINStatusBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC142FDD1D94C083009350FC /* XMINStatusBarUITests.m */; };
+		FC142FEF1D94C11F009350FC /* XMStatusbarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC142FEC1D94C11F009350FC /* XMStatusbarHUD.bundle */; };
+		FC142FF01D94C11F009350FC /* XMStatusbarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC142FEE1D94C11F009350FC /* XMStatusbarHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC142FCF1D94C083009350FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC142FAD1D94C083009350FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC142FB41D94C083009350FC;
+			remoteInfo = XMINStatusBar;
+		};
+		FC142FDA1D94C083009350FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC142FAD1D94C083009350FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC142FB41D94C083009350FC;
+			remoteInfo = XMINStatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC142FB51D94C083009350FC /* XMINStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMINStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC142FB91D94C083009350FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC142FBB1D94C083009350FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC142FBC1D94C083009350FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC142FBE1D94C083009350FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC142FBF1D94C083009350FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC142FC21D94C083009350FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC142FC41D94C083009350FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC142FC71D94C083009350FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC142FC91D94C083009350FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC142FCE1D94C083009350FC /* XMINStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMINStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC142FD21D94C083009350FC /* XMINStatusBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMINStatusBarTests.m; sourceTree = "<group>"; };
+		FC142FD41D94C083009350FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC142FD91D94C083009350FC /* XMINStatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMINStatusBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC142FDD1D94C083009350FC /* XMINStatusBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMINStatusBarUITests.m; sourceTree = "<group>"; };
+		FC142FDF1D94C083009350FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC142FEC1D94C11F009350FC /* XMStatusbarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XMStatusbarHUD.bundle; sourceTree = "<group>"; };
+		FC142FED1D94C11F009350FC /* XMStatusbarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMStatusbarHUD.h; sourceTree = "<group>"; };
+		FC142FEE1D94C11F009350FC /* XMStatusbarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMStatusbarHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC142FB21D94C083009350FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142FCB1D94C083009350FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142FD61D94C083009350FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC142FAC1D94C083009350FC = {
+			isa = PBXGroup;
+			children = (
+				FC142FB71D94C083009350FC /* XMINStatusBar */,
+				FC142FD11D94C083009350FC /* XMINStatusBarTests */,
+				FC142FDC1D94C083009350FC /* XMINStatusBarUITests */,
+				FC142FB61D94C083009350FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC142FB61D94C083009350FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FB51D94C083009350FC /* XMINStatusBar.app */,
+				FC142FCE1D94C083009350FC /* XMINStatusBarTests.xctest */,
+				FC142FD91D94C083009350FC /* XMINStatusBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC142FB71D94C083009350FC /* XMINStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FEB1D94C11F009350FC /* XMStatusbarHUD */,
+				FC142FBB1D94C083009350FC /* AppDelegate.h */,
+				FC142FBC1D94C083009350FC /* AppDelegate.m */,
+				FC142FBE1D94C083009350FC /* ViewController.h */,
+				FC142FBF1D94C083009350FC /* ViewController.m */,
+				FC142FC11D94C083009350FC /* Main.storyboard */,
+				FC142FC41D94C083009350FC /* Assets.xcassets */,
+				FC142FC61D94C083009350FC /* LaunchScreen.storyboard */,
+				FC142FC91D94C083009350FC /* Info.plist */,
+				FC142FB81D94C083009350FC /* Supporting Files */,
+			);
+			path = XMINStatusBar;
+			sourceTree = "<group>";
+		};
+		FC142FB81D94C083009350FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FB91D94C083009350FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC142FD11D94C083009350FC /* XMINStatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FD21D94C083009350FC /* XMINStatusBarTests.m */,
+				FC142FD41D94C083009350FC /* Info.plist */,
+			);
+			path = XMINStatusBarTests;
+			sourceTree = "<group>";
+		};
+		FC142FDC1D94C083009350FC /* XMINStatusBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FDD1D94C083009350FC /* XMINStatusBarUITests.m */,
+				FC142FDF1D94C083009350FC /* Info.plist */,
+			);
+			path = XMINStatusBarUITests;
+			sourceTree = "<group>";
+		};
+		FC142FEB1D94C11F009350FC /* XMStatusbarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FEC1D94C11F009350FC /* XMStatusbarHUD.bundle */,
+				FC142FED1D94C11F009350FC /* XMStatusbarHUD.h */,
+				FC142FEE1D94C11F009350FC /* XMStatusbarHUD.m */,
+			);
+			name = XMStatusbarHUD;
+			path = ../../XMStatusbarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC142FB41D94C083009350FC /* XMINStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC142FE21D94C083009350FC /* Build configuration list for PBXNativeTarget "XMINStatusBar" */;
+			buildPhases = (
+				FC142FB11D94C083009350FC /* Sources */,
+				FC142FB21D94C083009350FC /* Frameworks */,
+				FC142FB31D94C083009350FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMINStatusBar;
+			productName = XMINStatusBar;
+			productReference = FC142FB51D94C083009350FC /* XMINStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC142FCD1D94C083009350FC /* XMINStatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC142FE51D94C083009350FC /* Build configuration list for PBXNativeTarget "XMINStatusBarTests" */;
+			buildPhases = (
+				FC142FCA1D94C083009350FC /* Sources */,
+				FC142FCB1D94C083009350FC /* Frameworks */,
+				FC142FCC1D94C083009350FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC142FD01D94C083009350FC /* PBXTargetDependency */,
+			);
+			name = XMINStatusBarTests;
+			productName = XMINStatusBarTests;
+			productReference = FC142FCE1D94C083009350FC /* XMINStatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC142FD81D94C083009350FC /* XMINStatusBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC142FE81D94C083009350FC /* Build configuration list for PBXNativeTarget "XMINStatusBarUITests" */;
+			buildPhases = (
+				FC142FD51D94C083009350FC /* Sources */,
+				FC142FD61D94C083009350FC /* Frameworks */,
+				FC142FD71D94C083009350FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC142FDB1D94C083009350FC /* PBXTargetDependency */,
+			);
+			name = XMINStatusBarUITests;
+			productName = XMINStatusBarUITests;
+			productReference = FC142FD91D94C083009350FC /* XMINStatusBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC142FAD1D94C083009350FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = montnets;
+				TargetAttributes = {
+					FC142FB41D94C083009350FC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FC142FCD1D94C083009350FC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FC142FB41D94C083009350FC;
+					};
+					FC142FD81D94C083009350FC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FC142FB41D94C083009350FC;
+					};
+				};
+			};
+			buildConfigurationList = FC142FB01D94C083009350FC /* Build configuration list for PBXProject "XMINStatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC142FAC1D94C083009350FC;
+			productRefGroup = FC142FB61D94C083009350FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC142FB41D94C083009350FC /* XMINStatusBar */,
+				FC142FCD1D94C083009350FC /* XMINStatusBarTests */,
+				FC142FD81D94C083009350FC /* XMINStatusBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC142FB31D94C083009350FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142FEF1D94C11F009350FC /* XMStatusbarHUD.bundle in Resources */,
+				FC142FC81D94C083009350FC /* LaunchScreen.storyboard in Resources */,
+				FC142FC51D94C083009350FC /* Assets.xcassets in Resources */,
+				FC142FC31D94C083009350FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142FCC1D94C083009350FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142FD71D94C083009350FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC142FB11D94C083009350FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142FC01D94C083009350FC /* ViewController.m in Sources */,
+				FC142FBD1D94C083009350FC /* AppDelegate.m in Sources */,
+				FC142FF01D94C11F009350FC /* XMStatusbarHUD.m in Sources */,
+				FC142FBA1D94C083009350FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142FCA1D94C083009350FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142FD31D94C083009350FC /* XMINStatusBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142FD51D94C083009350FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142FDE1D94C083009350FC /* XMINStatusBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC142FD01D94C083009350FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC142FB41D94C083009350FC /* XMINStatusBar */;
+			targetProxy = FC142FCF1D94C083009350FC /* PBXContainerItemProxy */;
+		};
+		FC142FDB1D94C083009350FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC142FB41D94C083009350FC /* XMINStatusBar */;
+			targetProxy = FC142FDA1D94C083009350FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC142FC11D94C083009350FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC142FC21D94C083009350FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC142FC61D94C083009350FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC142FC71D94C083009350FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC142FE01D94C083009350FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC142FE11D94C083009350FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC142FE31D94C083009350FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMINStatusBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.montnets.XMINStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC142FE41D94C083009350FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMINStatusBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.montnets.XMINStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC142FE61D94C083009350FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMINStatusBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.montnets.XMINStatusBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMINStatusBar.app/XMINStatusBar";
+			};
+			name = Debug;
+		};
+		FC142FE71D94C083009350FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMINStatusBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.montnets.XMINStatusBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMINStatusBar.app/XMINStatusBar";
+			};
+			name = Release;
+		};
+		FC142FE91D94C083009350FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMINStatusBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.montnets.XMINStatusBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMINStatusBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC142FEA1D94C083009350FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMINStatusBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.montnets.XMINStatusBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMINStatusBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC142FB01D94C083009350FC /* Build configuration list for PBXProject "XMINStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC142FE01D94C083009350FC /* Debug */,
+				FC142FE11D94C083009350FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC142FE21D94C083009350FC /* Build configuration list for PBXNativeTarget "XMINStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC142FE31D94C083009350FC /* Debug */,
+				FC142FE41D94C083009350FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC142FE51D94C083009350FC /* Build configuration list for PBXNativeTarget "XMINStatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC142FE61D94C083009350FC /* Debug */,
+				FC142FE71D94C083009350FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC142FE81D94C083009350FC /* Build configuration list for PBXNativeTarget "XMINStatusBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC142FE91D94C083009350FC /* Debug */,
+				FC142FEA1D94C083009350FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC142FAD1D94C083009350FC /* Project object */;
+}
