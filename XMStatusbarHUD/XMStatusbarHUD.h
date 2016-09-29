@@ -10,6 +10,10 @@
 
 @interface XMStatusbarHUD : NSObject
 /**
+ *  隐藏
+ */
++(void)hide;
+/**
  * 显示消息加图片
  *
  *  @param message 消息
@@ -42,10 +46,7 @@
  */
 +(void)showLoadingString:(NSString *)message;
 
-/**
- *  隐藏
- */
-+(void)hide;
+
 
 
 
